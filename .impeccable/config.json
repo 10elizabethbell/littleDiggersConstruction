@@ -8,6 +8,90 @@
         "value": "roboto",
         "createdAt": "2026-10-19T13:53:26.786Z",
         "reason": "Ellie's pitch-site house style mandates the system font stack (ellie-taste.md: 'Type: the system font stack ... It's fast and it worked'); Roboto is only the Android system fallback"
+      },
+      {
+        "rule": "design-system-color",
+        "value": "rgb(255, 255, 255)",
+        "createdAt": "2026-10-19T14:14:36.339Z",
+        "reason": "Claude (pitch-site build): shipped one-off value the documenter deliberately left out of DESIGN.md tokens"
+      },
+      {
+        "rule": "design-system-color",
+        "value": "rgb(184, 170, 151)",
+        "createdAt": "2026-10-19T14:14:36.409Z",
+        "reason": "Claude (pitch-site build): shipped one-off value the documenter deliberately left out of DESIGN.md tokens"
+      },
+      {
+        "rule": "design-system-color",
+        "value": "#1258c0",
+        "createdAt": "2026-10-19T14:14:36.479Z",
+        "reason": "Claude (pitch-site build): shipped one-off value the documenter deliberately left out of DESIGN.md tokens"
+      },
+      {
+        "rule": "design-system-color",
+        "value": "#ffb3cf",
+        "createdAt": "2026-10-19T14:14:36.550Z",
+        "reason": "Claude (pitch-site build): shipped one-off value the documenter deliberately left out of DESIGN.md tokens"
+      },
+      {
+        "rule": "design-system-color",
+        "value": "rgba(0,0,0,.18)",
+        "createdAt": "2026-10-19T14:14:36.618Z",
+        "reason": "Claude (pitch-site build): shipped one-off value the documenter deliberately left out of DESIGN.md tokens"
+      },
+      {
+        "rule": "design-system-font-size",
+        "value": "21px",
+        "createdAt": "2026-10-19T14:14:36.687Z",
+        "reason": "Claude (pitch-site build): shipped one-off value the documenter deliberately left out of DESIGN.md tokens"
+      },
+      {
+        "rule": "design-system-font-size",
+        "value": "12px",
+        "createdAt": "2026-10-19T14:14:36.758Z",
+        "reason": "Claude (pitch-site build): shipped one-off value the documenter deliberately left out of DESIGN.md tokens"
+      },
+      {
+        "rule": "design-system-font-size",
+        "value": "24px",
+        "createdAt": "2026-10-19T14:14:36.825Z",
+        "reason": "Claude (pitch-site build): shipped one-off value the documenter deliberately left out of DESIGN.md tokens"
+      },
+      {
+        "rule": "design-system-font-size",
+        "value": "2rem",
+        "createdAt": "2026-10-19T14:14:36.894Z",
+        "reason": "Claude (pitch-site build): shipped one-off value the documenter deliberately left out of DESIGN.md tokens"
+      },
+      {
+        "rule": "design-system-font-size",
+        "value": "4.6rem",
+        "createdAt": "2026-10-19T14:14:36.965Z",
+        "reason": "Claude (pitch-site build): shipped one-off value the documenter deliberately left out of DESIGN.md tokens"
+      },
+      {
+        "rule": "design-system-font-size",
+        "value": "14px",
+        "createdAt": "2026-10-19T14:14:37.033Z",
+        "reason": "Claude (pitch-site build): shipped one-off value the documenter deliberately left out of DESIGN.md tokens"
+      },
+      {
+        "rule": "design-system-font-size",
+        "value": "15px",
+        "createdAt": "2026-10-19T14:14:37.104Z",
+        "reason": "Claude (pitch-site build): shipped one-off value the documenter deliberately left out of DESIGN.md tokens"
+      },
+      {
+        "rule": "design-system-font-size",
+        "value": "19px",
+        "createdAt": "2026-10-19T14:14:37.174Z",
+        "reason": "Claude (pitch-site build): shipped one-off value the documenter deliberately left out of DESIGN.md tokens"
+      },
+      {
+        "rule": "design-system-font-size",
+        "value": "3.4rem",
+        "createdAt": "2026-10-19T14:14:37.243Z",
+        "reason": "Claude (pitch-site build): shipped one-off value the documenter deliberately left out of DESIGN.md tokens"
       }
     ]
   }
