@@ -1,0 +1,489 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-19T14:12:37.888948+00:00",
+  "title": "Design System: Little Diggers Construction",
+  "extensions": {
+    "colorMeta": {
+      "soil": {
+        "role": "neutral",
+        "displayName": "Wet Loam",
+        "tonalRamp": [
+          "#352517",
+          "#5c4029",
+          "#835c3a",
+          "#aa774b",
+          "#bf936e",
+          "#d0b095",
+          "#e3d0bf",
+          "#f6efea"
+        ]
+      },
+      "soil-deep": {
+        "role": "neutral",
+        "displayName": "Deep Loam",
+        "tonalRamp": [
+          "#362616",
+          "#5e4226",
+          "#865d37",
+          "#ae7947",
+          "#c3956a",
+          "#d3b292",
+          "#e4d1be",
+          "#f6f0e9"
+        ]
+      },
+      "loam": {
+        "role": "neutral",
+        "displayName": "Loam",
+        "tonalRamp": [
+          "#352517",
+          "#5d4128",
+          "#845c39",
+          "#ab784a",
+          "#c0946d",
+          "#d1b194",
+          "#e3d0bf",
+          "#f6efea"
+        ]
+      },
+      "granite": {
+        "role": "neutral",
+        "displayName": "Granite",
+        "tonalRamp": [
+          "#2a2923",
+          "#48463d",
+          "#676456",
+          "#858270",
+          "#9f9d8d",
+          "#b9b7ac",
+          "#d5d4cd",
+          "#f1f1ee"
+        ]
+      },
+      "granite-shade": {
+        "role": "neutral",
+        "displayName": "Granite Shade",
+        "tonalRamp": [
+          "#292824",
+          "#47453e",
+          "#646358",
+          "#828073",
+          "#9d9b90",
+          "#b7b6ae",
+          "#d4d3ce",
+          "#f1f0ef"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "tonalRamp": [
+          "#32251a",
+          "#57402e",
+          "#7c5b41",
+          "#a17754",
+          "#b79376",
+          "#cab09b",
+          "#dfd0c3",
+          "#f4efeb"
+        ]
+      },
+      "ink-soft": {
+        "role": "neutral",
+        "displayName": "Ink Soft",
+        "tonalRamp": [
+          "#2e251f",
+          "#504135",
+          "#715c4b",
+          "#937862",
+          "#ab9482",
+          "#c2b1a3",
+          "#dad0c8",
+          "#f3efed"
+        ]
+      },
+      "bone": {
+        "role": "neutral",
+        "displayName": "Bone",
+        "tonalRamp": [
+          "#322b1b",
+          "#564b2f",
+          "#7a6b42",
+          "#9f8b56",
+          "#b6a577",
+          "#c9bd9c",
+          "#dfd7c3",
+          "#f4f2eb"
+        ]
+      },
+      "bone-soft": {
+        "role": "neutral",
+        "displayName": "Bone Soft",
+        "tonalRamp": [
+          "#31281c",
+          "#554630",
+          "#796344",
+          "#9c8158",
+          "#b49c79",
+          "#c8b69d",
+          "#ded3c4",
+          "#f4f0eb"
+        ]
+      },
+      "machine-yellow": {
+        "role": "primary",
+        "displayName": "Machine Yellow",
+        "tonalRamp": [
+          "#493a03",
+          "#7f6506",
+          "#b58f08",
+          "#ebba0a",
+          "#f6cd37",
+          "#f9da6c",
+          "#fbe9a7",
+          "#fef8e2"
+        ]
+      },
+      "machine-yellow-hot": {
+        "role": "primary",
+        "displayName": "Hot Yellow",
+        "tonalRamp": [
+          "#4c3c00",
+          "#856800",
+          "#bd9400",
+          "#f5c000",
+          "#ffd22e",
+          "#ffde66",
+          "#ffeba3",
+          "#fff8e0"
+        ]
+      },
+      "survey-pink": {
+        "role": "secondary",
+        "displayName": "Survey Pink",
+        "tonalRamp": [
+          "#4c001f",
+          "#850036",
+          "#bd004c",
+          "#f50063",
+          "#ff2e83",
+          "#ff66a4",
+          "#ffa3c8",
+          "#ffe0ed"
+        ]
+      },
+      "lawn": {
+        "role": "tertiary",
+        "displayName": "Lawn Green",
+        "tonalRamp": [
+          "#233913",
+          "#3c6321",
+          "#568d2f",
+          "#6fb73e",
+          "#8dca62",
+          "#abd98c",
+          "#cde8ba",
+          "#eef7e8"
+        ]
+      },
+      "paint-water": {
+        "role": "tertiary",
+        "displayName": "Locate Blue (water)",
+        "tonalRamp": [
+          "#072045",
+          "#0c3878",
+          "#1150ab",
+          "#1668de",
+          "#4186ec",
+          "#74a7f1",
+          "#accaf7",
+          "#e3edfc"
+        ]
+      },
+      "paint-gas": {
+        "role": "tertiary",
+        "displayName": "Locate Yellow (gas)",
+        "tonalRamp": [
+          "#4c3d00",
+          "#856b00",
+          "#bd9800",
+          "#f5c500",
+          "#ffd62e",
+          "#ffe166",
+          "#ffeda3",
+          "#fff9e0"
+        ]
+      },
+      "paint-sewer": {
+        "role": "tertiary",
+        "displayName": "Locate Green (sewer)",
+        "tonalRamp": [
+          "#133a16",
+          "#216427",
+          "#2f8e37",
+          "#3db847",
+          "#62cb6b",
+          "#8cd993",
+          "#bae8be",
+          "#e8f7e9"
+        ]
+      },
+      "paint-electric": {
+        "role": "tertiary",
+        "displayName": "Locate Red (electric)",
+        "tonalRamp": [
+          "#4c0400",
+          "#850800",
+          "#bd0b00",
+          "#f50e00",
+          "#ff3a2e",
+          "#ff6f66",
+          "#ffa8a3",
+          "#ffe2e0"
+        ]
+      },
+      "paint-white": {
+        "role": "tertiary",
+        "displayName": "White-Lining",
+        "tonalRamp": [
+          "#332d19",
+          "#584d2c",
+          "#7e6e3f",
+          "#a38f52",
+          "#b9a874",
+          "#ccbf99",
+          "#e0d9c2",
+          "#f5f2eb"
+        ]
+      },
+      "facebook-blue": {
+        "role": "neutral",
+        "displayName": "Facebook Blue",
+        "tonalRamp": [
+          "#072045",
+          "#0c3878",
+          "#1150ab",
+          "#1768de",
+          "#4187ec",
+          "#74a7f1",
+          "#accaf7",
+          "#e3edfc"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Hero headline only; 3.4rem to 6rem at 960px+."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Section headlines, always followed by a sprayed mark."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Service rows; step headings at 24px."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Running copy, about 34em max."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Buttons, form labels, phone and footer links."
+      },
+      "small": {
+        "displayName": "Small",
+        "purpose": "Helper text, chips, form messages; the 16px floor."
+      }
+    },
+    "shadows": [
+      {
+        "name": "photo-lift",
+        "value": "0 18px 36px -10px rgba(20,12,6,.6)",
+        "purpose": "Work photographs."
+      },
+      {
+        "name": "slab-lift",
+        "value": "0 12px 26px -10px rgba(20,12,6,.6)",
+        "purpose": "Facebook link slab."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-mark",
+        "value": "cubic-bezier(.16,1,.3,1)",
+        "purpose": "Sprayed headline marks drawing in (1.1s) and the chip preselect pulse (320ms)."
+      },
+      {
+        "name": "state",
+        "value": "0.15s-0.2s on color properties; 1px translateY on :active",
+        "purpose": "Buttons, chips, fields."
+      },
+      {
+        "name": "living-ground",
+        "value": "one shared requestAnimationFrame loop, IntersectionObserver-gated; CFG constants per module",
+        "purpose": "Dig lawn and grass fringes; autoplay and sway off under prefers-reduced-motion."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "tiny",
+        "value": "max-width: 359px"
+      },
+      {
+        "name": "phone",
+        "value": "max-width: 959px"
+      },
+      {
+        "name": "tablet",
+        "value": "600px"
+      },
+      {
+        "name": "desktop",
+        "value": "960px"
+      }
+    ],
+    "textures": [
+      {
+        "name": "granite-speckle",
+        "purpose": "Two tiled SVG feTurbulence layers (260px dark mica, 300px white quartz) over granite."
+      },
+      {
+        "name": "spray",
+        "purpose": "SVG filter: displaced ragged edge plus speckled overspray halo; applied to all paint."
+      },
+      {
+        "name": "grass-greens",
+        "value": [
+          "#355c1c",
+          "#3f6b22",
+          "#4d7d2a",
+          "#5c8f33",
+          "#6c9d3c"
+        ],
+        "purpose": "Blade colors shared by lawn and fringes."
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Machine-yellow action; the main call to action on loam.",
+      "html": "<div class=\"ds-ground\"><a class=\"ds-btn ds-btn-primary\" href=\"#\">Get a quote</a></div>",
+      "css": ":host{--soil:#46311f;--ink:#2a1f16;--bone:#f2efe7;--bone-soft:#dcd1c1;--yellow:#f5c518;--yellow-hot:#ffd84a;--pink:#ff5c9e;--granite:#dad9d3;--ink-soft:#57473a;--fb:#1665d8;--font:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif} .ds-ground{background:var(--soil);padding:20px;font-family:var(--font)} .ds-btn{display:inline-flex;align-items:center;justify-content:center;min-height:56px;padding:0 22px;border-radius:12px;border:2px solid var(--yellow);font-weight:800;font-size:17px;text-decoration:none;transition:background-color .2s,color .2s,border-color .2s,transform .15s} .ds-btn-primary{background:var(--yellow);color:var(--ink)} .ds-btn-primary:hover{background:var(--yellow-hot);border-color:var(--yellow-hot)} .ds-btn:focus-visible{outline:3px solid var(--pink);outline-offset:3px} .ds-btn:active{transform:translateY(1px)}"
+    },
+    {
+      "name": "Ghost Button",
+      "kind": "button",
+      "refersTo": "button-ghost",
+      "description": "Secondary action: yellow outline, bone label.",
+      "html": "<div class=\"ds-ground\"><a class=\"ds-btn-ghost\" href=\"#\">See our work</a></div>",
+      "css": ":host{--soil:#46311f;--ink:#2a1f16;--bone:#f2efe7;--bone-soft:#dcd1c1;--yellow:#f5c518;--yellow-hot:#ffd84a;--pink:#ff5c9e;--granite:#dad9d3;--ink-soft:#57473a;--fb:#1665d8;--font:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif} .ds-ground{background:var(--soil);padding:20px;font-family:var(--font)} .ds-btn-ghost{display:inline-flex;align-items:center;justify-content:center;min-height:56px;padding:0 22px;border-radius:12px;border:2px solid var(--yellow);color:var(--bone);font-weight:800;font-size:17px;text-decoration:none;transition:background-color .2s} .ds-btn-ghost:hover{background:rgba(245,197,24,.12)} .ds-btn-ghost:focus-visible{outline:3px solid var(--pink);outline-offset:3px} .ds-btn-ghost:active{transform:translateY(1px)}"
+    },
+    {
+      "name": "Text Field",
+      "kind": "input",
+      "refersTo": "input-text",
+      "description": "Bone field on loam; survey-pink on focus.",
+      "html": "<div class=\"ds-ground\"><label class=\"ds-label\" for=\"ds-n\">Your name</label><input id=\"ds-n\" class=\"ds-input\" type=\"text\"></div>",
+      "css": ":host{--soil:#46311f;--ink:#2a1f16;--bone:#f2efe7;--bone-soft:#dcd1c1;--yellow:#f5c518;--yellow-hot:#ffd84a;--pink:#ff5c9e;--granite:#dad9d3;--ink-soft:#57473a;--fb:#1665d8;--font:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif} .ds-ground{background:var(--soil);padding:20px;font-family:var(--font);color:var(--bone)} .ds-label{display:block;font-weight:800;font-size:17px;margin-bottom:8px} .ds-input{width:100%;font:inherit;font-size:17px;color:var(--ink);background:var(--bone);border:2px solid var(--bone);border-radius:10px;padding:13px 14px;min-height:52px;transition:border-color .15s,outline-color .15s} .ds-input:focus{outline:2px solid var(--pink);outline-offset:2px;border-color:var(--pink)}"
+    },
+    {
+      "name": "Service Chip",
+      "kind": "chip",
+      "refersTo": "chip-service",
+      "description": "Pill checkbox; checked fills machine yellow.",
+      "html": "<div class=\"ds-ground\"><label class=\"ds-chip\"><input type=\"checkbox\" checked><span>Granite stairs</span></label><label class=\"ds-chip\"><input type=\"checkbox\"><span>Excavation</span></label></div>",
+      "css": ":host{--soil:#46311f;--ink:#2a1f16;--bone:#f2efe7;--bone-soft:#dcd1c1;--yellow:#f5c518;--yellow-hot:#ffd84a;--pink:#ff5c9e;--granite:#dad9d3;--ink-soft:#57473a;--fb:#1665d8;--font:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif} .ds-ground{background:var(--soil);padding:20px;font-family:var(--font);color:var(--bone);display:flex;gap:10px;flex-wrap:wrap} .ds-chip{position:relative} .ds-chip input{position:absolute;opacity:0;width:1px;height:1px} .ds-chip span{display:flex;align-items:center;min-height:48px;padding:0 16px;border-radius:24px;border:2px solid rgba(242,239,231,.45);font-weight:700;font-size:16px;cursor:pointer;transition:background-color .15s,border-color .15s,color .15s} .ds-chip input:checked+span{background:var(--yellow);border-color:var(--yellow);color:var(--ink)} .ds-chip input:focus-visible+span{border-color:var(--pink);outline:2px solid var(--pink);outline-offset:2px}"
+    },
+    {
+      "name": "Service Row",
+      "kind": "custom",
+      "refersTo": "service-row",
+      "description": "Uppercase service list row on granite with a circled arrow that fills yellow on hover.",
+      "html": "<div class=\"ds-granite\"><a class=\"ds-row\" href=\"#\"><b>Granite stairs</b><span class=\"ds-arrow\"><svg viewBox=\"0 0 24 24\" width=\"18\" height=\"18\"><path d=\"M5 12h13M13 6l6 6-6 6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></span></a></div>",
+      "css": ":host{--soil:#46311f;--ink:#2a1f16;--bone:#f2efe7;--bone-soft:#dcd1c1;--yellow:#f5c518;--yellow-hot:#ffd84a;--pink:#ff5c9e;--granite:#dad9d3;--ink-soft:#57473a;--fb:#1665d8;--font:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif} .ds-granite{background:var(--granite);padding:20px;font-family:var(--font)} .ds-row{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:72px;padding:10px 0;border-bottom:2px solid rgba(42,31,22,.16);text-decoration:none;color:var(--ink)} .ds-row b{font-weight:900;font-size:24px;text-transform:uppercase;letter-spacing:-.01em;line-height:1.1} .ds-arrow{display:grid;place-items:center;width:44px;height:44px;border-radius:50%;border:2px solid var(--ink-soft);transition:background-color .2s,border-color .2s} .ds-row:hover .ds-arrow,.ds-row:focus-visible .ds-arrow{background:var(--yellow);border-color:var(--yellow)} .ds-row:focus-visible{outline:none} .ds-row:focus-visible .ds-arrow{outline:3px solid var(--pink);outline-offset:3px}"
+    },
+    {
+      "name": "Header",
+      "kind": "nav",
+      "refersTo": "header",
+      "description": "Wordmark left, phone right; no menu.",
+      "html": "<header class=\"ds-top\"><a class=\"ds-brand\" href=\"#\"><b>Little Diggers</b><span>Construction</span></a><a class=\"ds-tel\" href=\"#\"><svg viewBox=\"0 0 24 24\" width=\"18\" height=\"18\"><path d=\"M6.6 2.8 9 2.3c.6-.1 1.2.2 1.4.8l1.2 3.4c.2.6 0 1.2-.5 1.5l-1.6 1.1a12 12 0 0 0 5.4 5.4l1.1-1.6c.3-.5 1-.7 1.5-.5l3.4 1.2c.6.2.9.8.8 1.4l-.5 2.4c-.1.7-.7 1.2-1.4 1.2C10.4 20.6 3.4 13.6 3.4 4.2c0-.7.5-1.3 1.2-1.4Z\" fill=\"currentColor\"/></svg>508-917-6408</a></header>",
+      "css": ":host{--soil:#46311f;--ink:#2a1f16;--bone:#f2efe7;--bone-soft:#dcd1c1;--yellow:#f5c518;--yellow-hot:#ffd84a;--pink:#ff5c9e;--granite:#dad9d3;--ink-soft:#57473a;--fb:#1665d8;--font:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif} .ds-top{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:12px 16px;background:var(--soil);color:var(--bone);font-family:var(--font)} .ds-brand{display:flex;flex-direction:column;line-height:1;text-decoration:none;color:inherit} .ds-brand b{font-weight:900;font-size:21px;letter-spacing:-.01em;text-transform:uppercase} .ds-brand span{font-size:12px;font-weight:700;letter-spacing:.24em;text-transform:uppercase;color:var(--bone-soft);margin-top:5px} .ds-tel{display:inline-flex;align-items:center;gap:8px;min-height:44px;font-weight:800;font-size:17px;text-decoration:none;color:inherit} .ds-tel svg{color:var(--yellow)} .ds-tel:hover{color:var(--yellow-hot)} .ds-tel:focus-visible,.ds-brand:focus-visible{outline:3px solid var(--pink);outline-offset:3px;border-radius:4px}"
+    },
+    {
+      "name": "Headline With Sprayed Mark",
+      "kind": "custom",
+      "refersTo": "headline",
+      "description": "Section headline over one locate-paint spray stroke.",
+      "html": "<div class=\"ds-granite\"><h2 class=\"ds-h2\">What we do</h2><svg class=\"ds-mark\" viewBox=\"0 0 240 26\"><defs><filter id=\"ds-spray\" x=\"-15%\" y=\"-60%\" width=\"130%\" height=\"220%\"><feTurbulence type=\"fractalNoise\" baseFrequency=\".9\" numOctaves=\"2\" seed=\"3\" result=\"n\"/><feDisplacementMap in=\"SourceGraphic\" in2=\"n\" scale=\"5\" xChannelSelector=\"R\" yChannelSelector=\"G\"/></filter></defs><path d=\"M8 15 C 60 9, 150 18, 232 10\" stroke=\"#ff3b2f\" filter=\"url(#ds-spray)\"/></svg></div>",
+      "css": ":host{--soil:#46311f;--ink:#2a1f16;--bone:#f2efe7;--bone-soft:#dcd1c1;--yellow:#f5c518;--yellow-hot:#ffd84a;--pink:#ff5c9e;--granite:#dad9d3;--ink-soft:#57473a;--fb:#1665d8;--font:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif} .ds-granite{background:var(--granite);color:var(--ink);padding:24px;font-family:var(--font)} .ds-h2{margin:0;font-weight:900;text-transform:uppercase;font-size:3rem;line-height:.95;letter-spacing:-.025em} .ds-mark{display:block;width:240px;height:26px;margin:8px 0 0;overflow:visible} .ds-mark path{fill:none;stroke-width:9;stroke-linecap:round}"
+    },
+    {
+      "name": "Facebook Slab",
+      "kind": "button",
+      "refersTo": "facebook-slab",
+      "description": "The one third-party-branded link; sits on the ground with a soil-tinted shadow.",
+      "html": "<div class=\"ds-ground\"><a class=\"ds-fb\" href=\"#\"><svg viewBox=\"0 0 24 24\" width=\"26\" height=\"26\"><path d=\"M24 12a12 12 0 1 0-13.9 11.9v-8.4H7.1V12h3V9.4c0-3 1.8-4.7 4.5-4.7 1.3 0 2.7.2 2.7.2v3h-1.5c-1.5 0-2 .9-2 1.9V12h3.4l-.5 3.5h-2.9v8.4A12 12 0 0 0 24 12Z\" fill=\"currentColor\"/></svg>Click to see more of our work.</a></div>",
+      "css": ":host{--soil:#46311f;--ink:#2a1f16;--bone:#f2efe7;--bone-soft:#dcd1c1;--yellow:#f5c518;--yellow-hot:#ffd84a;--pink:#ff5c9e;--granite:#dad9d3;--ink-soft:#57473a;--fb:#1665d8;--font:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif} .ds-ground{background:var(--soil);padding:24px;font-family:var(--font)} .ds-fb{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:64px;padding:12px 16px;border-radius:14px;background:var(--fb);color:#fff;font-weight:800;font-size:18px;text-decoration:none;box-shadow:0 12px 26px -10px rgba(20,12,6,.6);transition:background-color .2s,transform .15s} .ds-fb:hover{background:#1258c0} .ds-fb:focus-visible{outline:3px solid var(--pink);outline-offset:3px} .ds-fb:active{transform:translateY(1px)}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Marked Out Before the Dig",
+    "overview": "The site is a residential lawn the morning a crew arrives: Dig Safe locate paint sprayed across New England grass, wet loam where the ground is open, granite curb sections laid in between. The page alternates two grounds, dark loam and speckled granite, and every accent is a material a crew actually uses: machine yellow for anything you press, survey-flag pink for the form field you are filling in, and the four utility locate colors (water blue, gas yellow, sewer green, electric red) as sprayed marks under headings and as the pipes buried in the hero lawn. Photos get white-lining, the dashed paint perimeter crews spray around a dig area.\n\nLettering is heavy, uppercase, tightly tracked system type, set large. The density is low and the targets are big because the visitor is a homeowner on a phone, usually inside Facebook's in-app browser. The signature is physical: the hero lawn is a canvas you dig into with a finger to uncover the colored pipes beneath each mark, and grass fringes sway along every top edge where a soil ground meets the section above it. Both react to the pointer and rest when off-screen.\n\nThe build rejects the stock contractor page: no stock excavator photography, no hazard stripes, no row of three icon cards.",
+    "keyCharacteristics": [
+      "Two alternating grounds: loam brown (dark) and granite gray with real mica-and-quartz speckle (light).",
+      "Accent colors are site materials with fixed jobs, never decoration.",
+      "Heavy uppercase system lettering, tight negative tracking, display sizes driven by viewport width.",
+      "Spray-paint texture (an SVG turbulence filter) on every painted element: heading marks, step numerals, white-lining.",
+      "Living ground: dig-to-reveal lawn canvas plus grass fringes, both tuned through `CFG` constants at the top of their JS modules, both honoring reduced motion."
+    ],
+    "rules": [
+      {
+        "name": "The Jobsite Signal Rule",
+        "body": "Yellow means press, pink means you are here, locate paint means a mark on the ground. A color never borrows another color's job.",
+        "section": "colors"
+      },
+      {
+        "name": "The One Paint Per Section Rule",
+        "body": "Each section headline gets exactly one sprayed mark in one locate color; sections do not repeat their neighbor's color.",
+        "section": "colors"
+      },
+      {
+        "name": "The Heavy-or-Plain Rule",
+        "body": "Text is either 900 uppercase with negative tracking, or sentence-case 400\u2013800 body. Nothing in between, no light weights, no italics.",
+        "section": "typography"
+      },
+      {
+        "name": "The 16px Floor Rule",
+        "body": "Interactive and reading text never goes below 16px (17px body); the only smaller text is the 12px wordmark sub-line and 14px legal line.",
+        "section": "typography"
+      },
+      {
+        "name": "The Things-On-The-Ground Rule",
+        "body": "Only physical objects (photos, the slab) cast shadows. Buttons, fields, chips and sections stay flat.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** alternate loam and granite grounds section by section, and put a grass fringe on top of every loam ground.",
+      "**Do** give every section headline one sprayed locate-paint mark, a different color from its neighbors.",
+      "**Do** keep machine yellow (#f5c518) on actions only and survey pink (#ff5c9e) on focus and on form-control hover only.",
+      "**Do** run every painted element through the spray filter so paint reads as paint.",
+      "**Do** keep touch targets at 44px minimum (buttons 56px, fields 52px, chips 48px).",
+      "**Do** expose new living behavior through a `CFG` block at the top of its module and stop it when off-screen or under reduced motion.",
+      "**Do** use the system font stack at 900 uppercase for names and 400 for explanation."
+    ],
+    "donts": [
+      "**Don't** use stock excavator photography, hazard stripes, or rows of three icon cards.",
+      "**Don't** add a webfont; the system stack is a house rule.",
+      "**Don't** put shadows on buttons, fields, chips or sections; only photos and the Facebook slab sit on the ground.",
+      "**Don't** use locate-paint colors for buttons, links or UI state; they mark the ground.",
+      "**Don't** set body or control text below 16px."
+    ]
+  }
+}

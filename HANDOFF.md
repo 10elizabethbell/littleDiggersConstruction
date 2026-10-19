@@ -4,8 +4,8 @@
 
 ## What's built
 - One page, phone first: header (wordmark, `508-917-6408` top right), hero, What we do, Fresh off the job, How a job goes, Tell us about your job (quote form), footer.
-- **World: "marked out before the dig."** The ground is wet loam brown and the sections in between are speckled granite with a curb edge. Utility locate paint (blue water, yellow gas, green sewer, red electric) is sprayed on the lawn and under each heading. White marking paint frames the photos at the corners, and grass fringes grow where soil meets stone.
-- **Signature element:** the hero lawn is a canvas you dig with a finger or mouse in any direction. Grass parts around the pointer, dirt clods fly out and land on the lawn, and each paint mark has the matching pipe under it (sand bedding and all). The hole fills back in after a few seconds. Until someone touches it, the lawn digs itself along one mark after another. Grass sways all the time, and the fringes sway and part too. One shared animation loop pauses whatever is off screen. With reduced motion everything stays still, but digging still works.
+- **World: "marked out before the dig."** The ground is wet loam brown and the sections in between are speckled granite. Utility locate paint (blue water, yellow gas, green sewer, red electric) is sprayed on the lawn and under each heading. White marking paint is sprayed as a dashed outline around each photo (the way crews mark a dig area), and grass fringes grow where soil meets stone.
+- **Signature element:** the hero lawn is a canvas you dig with a finger or mouse in any direction. Grass parts around the pointer, dirt clods fly out and land on the lawn, and each paint mark has the matching pipe under it (sand bedding and all). The hole fills back in after a few seconds. One finger swipe digs deep enough to expose the pipes. Until someone touches it, the lawn digs itself along each mark, twice round, then rests (and starts again when the hero scrolls back into view). On phones the lawn is about 40% of the screen tall, so the first screen leaves room to scroll from (the lawn takes every drag, up and down included). Tuning constants are at the top of each JS block (`CFG`). Grass sways all the time, and the fringes sway and part too. One shared animation loop pauses whatever is off screen. With reduced motion everything stays still, but digging still works.
 - **Contact:** the phone number is a `tel:` link in the top right. The hero has two buttons: Get a quote (to the form) and See our work. Tapping a service row jumps to the form with that service already ticked. The form builds a text to `+15089176408` (`sms:` link with an encoded body) and also shows the message with a copy button and the phone number, for desktops and in case texting doesn't work.
 - The Facebook button ("Click to see more of our work.") sits under the photos, and Facebook is also in the footer. There's no email anywhere, because none exists.
 - The favicon and home-screen icon are "LD" in the site's own lettering. `og.jpg` (1200x630) is the headline next to the granite stairs photo.
@@ -14,7 +14,7 @@
 - **Colors:** there's no logo or brand color. Machine yellow comes from the Deere dozer in their own photo. Loam brown, granite gray and lawn green come from the work itself. Survey-flag pink is the form highlight.
 - **Voice:** "we" (a crew: "The guys killed this stairway…"). Mark is named as owner because the Facebook page says so.
 - **Headline:** "Dug right. Left clean." and the promise ("works your yard like it's our own… leave it better than we found it") are written by me, not quoted. They're about care, not credentials.
-- **How a job goes**, step 2 ("We walk the site with you… give you a straight price") is inferred. Confirm they do site visits and quotes this way.
+- **How a job goes** is my wording. Step 1 asks people to call, not text, because texting is unconfirmed. Step 2 ("We take a look, talk it through with you, and tell you straight what it'll take") assumes they look at a job before pricing it; confirm with Mark.
 - **Service label:** I wrote "Underground utilities" with the correct spelling. The brief asked to keep their spelling "utilitys" verbatim; that applies to quoting their caption, and their caption isn't quoted anywhere on the page. Change it back if you'd rather.
 - **Address:** only "Auburn, Massachusetts" is shown (their Facebook page confirms Auburn). I didn't publish the 165 South St address, because their own page doesn't confirm it.
 - **Texting:** whether they take texts is unknown. The quote form hands off by text, and calling sits beside it every time (header, form help line, step 1, footer).
@@ -41,6 +41,11 @@
 - Embed the stairway job video (muted, loops, tap to play) in Fresh off the job.
 - A drag hint that fades after the first dig. A small digger-bucket shadow that follows the self-dig, so it reads as a machine at work.
 - A separate quote page with photo attachments (MMS can't be pre-filled; this would need a backend or an email service).
+
+## Review notes
+- Impeccable ran every mode except `live` (and `onboard`, `shape` and `init`, which don't apply), plus the finish reviewer (verdict: fix; all eight material fixes applied) and the detector (clean; Roboto warning suppressed because the house style uses the system font stack).
+- Two finish-reviewer ideas are left for you: pink survey flags standing in the lawn, and a small reward when a pipe is exposed.
+- The audience isn't stated as 40+, so the site keeps full motion. If Mark's customers skew older, switch to the still version (`older-audience.md`).
 
 ## Not verified
 - Real-device touch on iPhone and Android, inside Facebook's in-app browser (tested only with simulated pointer and touch events in headless Chrome).
